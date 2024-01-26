@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    justify-content: space-between;
+}
+
+#wrap{
+    position: relative;
+    display: flex;
+}
+
+#weather_container,#map {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 500px;
+    height: 500px;
+}
+
+#click_weather{
+    display: inline-block;
+    margin: 20px;
+}
+
+#click_weather li {
+    
+    list-style-type: none;
+    border-bottom: solid 1px gray;
+    padding: 5px;
+}
+
+#click_weather a {
+    text-decoration: none;
+}
+
+#citydiv {
+    width:1000px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#city {
+    width: 180px;
+    height: 24px;
+    vertical-align: top;
+}
+
+#w_temp, #w_img {
+    display: inline;
+}
+
+#click_weather {
+    display: inline;
+}
